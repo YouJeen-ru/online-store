@@ -851,7 +851,6 @@ body {
 .pagination-list {
     display: flex;
     justify-content: center;
-
 }
 
 .pagination-list__item {
@@ -867,9 +866,36 @@ body {
     color: #1C62CD;
     border: 2px solid #1C62CD;
     padding: 13px 15px;
-
 }
 
 .pagination-list__item a {
     display: block;
+}
+
+.aside-filter__tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-filter__tab {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    width: 50%;
+}
+
+.aside-filter__tab.tab--active {
+    color: #2F3035;
+    font-weight: bold;
+    font-family: 'SFProDisplay-Bold', sans-serif;
+
+}
+
+.aside-filter__tab.tab--active span {
+    padding-bottom: 7px;
+    display: inline-block;
+    border-bottom: 2px solid #1C62CD;
 }
