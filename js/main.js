@@ -28,7 +28,7 @@ $(function(){
 
     $('.filter-style').styler();
 
-    $('.filter__item-drop').on('click', function () {
+    $('.filter__item-drop, .filter-extra').on('click', function () {
         $(this).toggleClass('filter__item-drop--active')
         $(this).next().slideToggle('200')
     })
@@ -36,5 +36,17 @@ $(function(){
     $(".js-range-slider").ionRangeSlider({
         type: 'double',
     });
+
+    $('.catalog__filter-btngrid').on('click', function () {
+        $(this).addClass('catalog__filter-button--active')
+        $('.catalog__filter-btnline').removeClass('catalog__filter-button--active')
+        $('.product-item__wrapper').removeClass('product-item__wrapper--list')
+    })
+
+    $('.catalog__filter-btnline').on('click', function () {
+        $(this).addClass('catalog__filter-button--active')
+        $('.catalog__filter-btngrid').removeClass('catalog__filter-button--active')
+        $('.product-item__wrapper').addClass('product-item__wrapper--list')
+    })
 
 });
