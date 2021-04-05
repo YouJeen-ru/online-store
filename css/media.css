@@ -71,6 +71,12 @@
         max-width: 100%;
         margin-bottom: 25px;
     }
+    .mobile-overflow {
+        width: 1000px;
+    }
+    .tabs-wrapper {
+        overflow-x: scroll;
+    }
 
 
 }
@@ -84,6 +90,26 @@
     }
     .banner-section .container {
         padding: 0;
+    }
+    .search__content-btn {
+        font-size: 0;
+        line-height: 0;
+        padding: 17px;
+        background-image: url("../images/search.svg");
+        width: 24px;
+        height: 24px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 8px;
+        top: 13px;
+    }
+    .search__content-input {
+        height: 50px;
+        padding-right: 50px;
+    }
+    .search__content-form {
+        position: relative;
     }
 
 }
