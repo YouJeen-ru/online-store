@@ -20,6 +20,9 @@
     .categories__inner {
         justify-content: space-around;
     }
+    .banner-link img {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -120,6 +123,10 @@
     }
     .search__content-form {
         position: relative;
+    }
+    .banner-link img {
+        min-height: 90px;
+        object-fit: contain;
     }
 
 }
