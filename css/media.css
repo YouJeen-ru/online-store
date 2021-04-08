@@ -1,4 +1,11 @@
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
+    .product__more {
+        margin-top: 60px;
+    }
+}
+
+
+    @media (max-width: 1200px) {
     .banner-section__slider-img {
         min-height: 380px;
         max-width: 600px;
