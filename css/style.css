@@ -895,6 +895,7 @@ body {
     line-height: 17px;
     margin-right: 34px;
     padding: 7px 10px 7px 20px;
+    z-index: 1;
 }
 
 .catalog__inner {
