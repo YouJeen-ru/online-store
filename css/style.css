@@ -1631,3 +1631,6 @@ body {
 .footer__topdrop {
     pointer-events: none;
 }
+.jq-ry-container {
+    z-index: 1;
+}
