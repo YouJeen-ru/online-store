@@ -1623,3 +1623,7 @@ body {
 .aside__btn {
     display: none;
 }
+
+.product-card__btn-mobile {
+    display: none;
+}
